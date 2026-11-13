@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piece — Crochet Craft Studio</title>
+<meta name="description" content="Handmade crochet piece by Crochet Craft Studio. Prices in INR, made to order, pan-India shipping.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/v2.css">
+<link rel="stylesheet" href="assets/css/v3.css">
+</head>
+<body data-page="pdp">
+<main>
+
+  <section class="sec-tight" style="padding-bottom:1rem">
+    <div class="wrap">
+      <nav class="micro" style="letter-spacing:.12em;display:flex;gap:.5rem;flex-wrap:wrap" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><a href="shop.html">Shop</a><span>/</span>
+        <span id="pdpCat" style="color:var(--ink)"></span>
+      </nav>
+    </div>
+  </section>
+
+  <section style="padding-bottom:clamp(3rem,7vw,5rem)">
+    <div class="wrap pdp">
+      <div class="pdp__gal">
+        <div class="pdp__main" id="pdpArt"></div>
+        <div class="pdp__thumbs" id="pdpThumbs"></div>
+      </div>
+
+      <div class="pdp__info">
+        <div class="shead__k"><i></i><span class="micro">Handmade to order</span></div>
+        <h1 class="d h1" id="pdpName" style="font-size:clamp(2.2rem,5.6vw,3.6rem);margin-top:.6rem"></h1>
+        <div class="hand" id="pdpNameHi" style="font-size:1.7rem;color:var(--rose);margin-top:.2rem"></div>
+        <p class="lede mt-2" id="pdpDesc"></p>
+
+        <div class="pdp__price"><b id="pdpPrice"></b><span class="micro" style="letter-spacing:.1em">incl. GST</span></div>
+
+        <div class="field mt-3" id="pdpModel" hidden>
+          <label for="pdpModelSel">Phone model <span style="color:var(--rose)">*</span></label>
+          <select id="pdpModelSel"></select>
+          <span class="err" id="pdpModelErr">Model chuno — warna galat size aayega.</span>
+        </div>
+
+        <div class="mt-3" style="display:grid;gap:.6rem">
+          <button class="btn btn--block" id="pdpAdd">Add to bag</button>
+          <a class="btn btn--ghost btn--block" href="custom.html">Colour badalna hai? Custom banao</a>
+        </div>
+
+        <div class="pdp__specs">
+          <div class="pdp__spec"><span>Availability</span><span id="pdpStock"></span></div>
+          <div class="pdp__spec"><span>Shipping</span><span id="pdpShip"></span></div>
+          <div class="pdp__spec"><span>Made by</span><span>Vanshita &amp; Manvi</span></div>
+          <div class="pdp__spec"><span>Care</span><span>Hand wash, cold, flat dry</span></div>
+          <div class="pdp__spec"><span>Note</span><span>Gift wrap free</span></div>
+        </div>
+
+        <div class="gate mt-3">
+          <b>Har piece alag hota hai.</b> Handmade hai — colour aur stitch mein chhota sa difference normal hai. Wahi isko special banata hai.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-tight" style="background:var(--paper-2)">
+    <div class="wrap">
+      <div class="shead">
+        <div class="shead__l"><div class="shead__k"><i></i><span class="micro">Isi shelf se</span></div>
+        <h2 class="d h2">Aur bhi hai.</h2></div>
+        <a class="link-u" href="shop.html">Full shelf →</a>
+      </div>
+      <div class="tags" id="pdpRelated"></div>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/art.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/thread.js"></script>
+<script src="assets/js/interactions.js"></script>
+<script src="assets/js/craft3d.js"></script>
+</body>
+</html>
+

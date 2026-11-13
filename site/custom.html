@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Custom order — Crochet Craft Studio</title>
+<meta name="description" content="Design your own crochet piece: choose the item, the yarn colour and the phone model. Live preview, then order on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/v2.css">
+<link rel="stylesheet" href="assets/css/v3.css">
+</head>
+<body data-page="custom">
+<main>
+
+  <section class="sec-tight" style="padding-bottom:1.2rem">
+    <div class="wrap">
+      <div class="shead__k"><i></i><span class="micro">The builder · live preview</span></div>
+      <h1 class="d h1" style="font-size:clamp(2.4rem,7vw,4.6rem);margin-top:.7rem">Banwao<br><em class="it" style="color:var(--rose)">apna.</em></h1>
+      <p class="lede mt-2">Item chuno, colour chuno, model batao. Preview live badalta hai — phir WhatsApp pe order.</p>
+
+      <div class="build-progress mt-3">
+        <div class="build-step active" id="progStep1"><span class="build-step__dot">1</span><span class="build-step__label">Item</span></div>
+        <div class="build-step" id="progStep2"><span class="build-step__dot">2</span><span class="build-step__label">Colour</span></div>
+        <div class="build-step" id="progStep3"><span class="build-step__dot">3</span><span class="build-step__label">Details</span></div>
+        <div class="build-step" id="progStep4"><span class="build-step__dot">4</span><span class="build-step__label">Order</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom:clamp(4rem,9vw,7rem)">
+    <div class="wrap bld">
+
+      <div class="bld__stage">
+        <div class="bld__preview" id="bldPreview"></div>
+        <div class="bld__cap">
+          <span>Your piece</span>
+          <b id="bldLabel">Bag · Blush pink</b>
+        </div>
+        <div style="position:absolute;top:1rem;right:1.1rem" class="micro">Live</div>
+      </div>
+
+      <div class="bld__panel">
+
+        <div class="step">
+          <div class="step__h"><span class="step__n"></span><span class="step__t">Kya banana hai?</span></div>
+          <div class="opts" id="bldKinds" role="group" aria-label="Item type"></div>
+        </div>
+
+        <div class="step">
+          <div class="step__h"><span class="step__n"></span><span class="step__t">Yarn ka colour</span></div>
+          <div class="swatches" id="bldColors" role="radiogroup" aria-label="Yarn colour"></div>
+          <div class="sw__lbl">Chuna hua: <b id="bldColorName" style="color:var(--ink)"></b></div>
+        </div>
+
+        <div class="field step" id="bldModelStep" hidden>
+          <div class="step__h"><span class="step__n"></span><span class="step__t">Phone model</span></div>
+          <label for="bldModelSel" class="sr">Phone model</label>
+          <select id="bldModelSel">
+            <option value="">Select model</option>
+            <option>iPhone 11</option>
+            <option>iPhone 12/13</option>
+            <option>iPhone 14</option>
+            <option>iPhone 15</option>
+            <option>iPhone 16</option>
+            <option>OnePlus Nord CE</option>
+            <option>Samsung A54</option>
+            <option>Other (note mein likhna)</option>
+          </select>
+          <span class="err">Phone case ke liye model chahiye — warna galat size aayega.</span>
+        </div>
+
+        <div class="step">
+          <div class="step__h"><span class="step__n"></span><span class="step__t">Kuch aur batao</span></div>
+          <div class="field">
+            <label for="bldNote">Note (optional)</label>
+            <textarea id="bldNote" placeholder="Size, reference, ya bas 'kuch cute sa' — sab chalega."></textarea>
+          </div>
+          <div class="field" style="max-width:140px">
+            <label for="bldQty">Quantity</label>
+            <input id="bldQty" type="number" min="1" max="20" value="1" inputmode="numeric">
+          </div>
+        </div>
+
+        <div class="gate" id="bldGate" hidden>
+          <b>Ruko.</b> Phone case ke liye model chahiye — warna galat size aayega.
+        </div>
+
+        <div style="display:grid;gap:.6rem">
+          <button class="btn btn--wa btn--block" id="bldWa">Send on WhatsApp</button>
+          <button class="btn btn--ghost btn--block" id="bldAdd">Add custom piece to bag</button>
+          <p style="font-size:.68rem;color:var(--ink-soft);text-align:center">Custom pieces ka price final quote ke baad confirm hota hai.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sec dark">
+    <div class="wrap">
+      <div class="shead rv">
+        <div class="shead__l"><div class="shead__k"><i></i><span class="micro">Aage kya</span></div>
+        <h2 class="d h2">Order ke baad.</h2></div>
+      </div>
+      <div class="proc-list" style="max-width:640px">
+        <div class="proc-item rv"><span class="proc-item__n">01</span><div><div class="proc-item__t">Hum reply karte hain</div><div class="proc-item__d">24 ghante mein price, yarn options aur timeline confirm ho jaati hai.</div></div></div>
+        <div class="proc-item rv"><span class="proc-item__n">02</span><div><div class="proc-item__t">Advance 50%</div><div class="proc-item__d">UPI payment. Baaki 50% dispatch se pehle confirm karte hain.</div></div></div>
+        <div class="proc-item rv"><span class="proc-item__n">03</span><div><div class="proc-item__t">Progress photos</div><div class="proc-item__d">Roz nahi, par har major milestone pe progress photo WhatsApp pe aati hai.</div></div></div>
+        <div class="proc-item rv"><span class="proc-item__n">04</span><div><div class="proc-item__t">Dispatch</div><div class="proc-item__d">Pan-India express shipping. Tracking link WhatsApp pe turant.</div></div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/art.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/thread.js"></script>
+<script src="assets/js/interactions.js"></script>
+<script src="assets/js/craft3d.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gift finder — Crochet Craft Studio</title>
+<meta name="description" content="Three questions, three picks. Find a handmade crochet gift under your budget.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/v2.css">
+<link rel="stylesheet" href="assets/css/v3.css">
+</head>
+<body data-page="gifts">
+<main>
+
+  <section class="sec-tight" style="padding-bottom:1rem">
+    <div class="wrap">
+      <div class="shead">
+        <div class="shead__l">
+          <div class="shead__k"><i></i><span class="micro">Gift finder · 3 questions</span></div>
+          <h1 class="d h1" style="font-size:clamp(2.4rem,7vw,4.6rem);margin-top:.6rem">Kisko gift<br><em class="it" style="color:var(--rose)">de rahe ho?</em></h1>
+        </div>
+        <p class="lede" style="max-width:30ch">Teen sawaal. Teen picks. Budget ke andar — aur sab haath se bana hua.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-bottom:clamp(3rem,7vw,5rem)">
+    <div class="wrap giftwrap">
+
+      <div class="gift__main">
+        <div class="quiz" id="quizWrap">
+
+          <div class="quiz__q on" data-i="0">
+            <div class="micro" style="margin-bottom:.5rem">01 / Who</div>
+            <h2 class="d h3" style="font-size:1.6rem">Kiske liye?</h2>
+            <div class="quiz__opts">
+              <button class="qopt" data-q="who" data-v="gf">Girlfriend <small>sorry bhi, pyaar bhi</small></button>
+              <button class="qopt" data-q="who" data-v="behen">Behen <small>rakhi, birthday, sab</small></button>
+              <button class="qopt" data-q="who" data-v="bhai">Bhai <small>rakhi special</small></button>
+              <button class="qopt" data-q="who" data-v="dost">Dost <small>just because</small></button>
+              <button class="qopt" data-q="who" data-v="mom">Mom <small>ghar ke liye</small></button>
+              <button class="qopt" data-q="who" data-v="self">Apne liye <small>self care hai</small></button>
+            </div>
+          </div>
+
+          <div class="quiz__q" data-i="1">
+            <div class="micro" style="margin-bottom:.5rem">02 / Budget</div>
+            <h2 class="d h3" style="font-size:1.6rem">Kitna soch rakha hai?</h2>
+            <div class="quiz__opts">
+              <button class="qopt" data-q="budget" data-v="low">₹250 tak <small>chhota, cute</small></button>
+              <button class="qopt" data-q="budget" data-v="mid">₹250–450 <small>the sweet spot</small></button>
+              <button class="qopt" data-q="budget" data-v="high">₹450+ <small>hamper territory</small></button>
+            </div>
+          </div>
+
+          <div class="quiz__q" data-i="2">
+            <div class="micro" style="margin-bottom:.5rem">03 / Vibe</div>
+            <h2 class="d h3" style="font-size:1.6rem">Kaisa gift?</h2>
+            <div class="quiz__opts">
+              <button class="qopt" data-q="vibe" data-v="wear">Pehna jaaye <small>bag, clip, top</small></button>
+              <button class="qopt" data-q="vibe" data-v="decor">Ghar sajaye <small>diya, hanging</small></button>
+              <button class="qopt" data-q="vibe" data-v="gift">Bas gift lage <small>keychain, rakhi</small></button>
+            </div>
+          </div>
+
+          <div class="quiz__prog" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+          <div class="quiz__foot">
+            <span class="quiz__fine">No signup, no email. Teen taps, bas.</span>
+            <a class="link-u" id="quizSkip" href="shop.html">Skip — poora shelf dikhao →</a>
+          </div>
+        </div>
+
+        <div id="giftResults" hidden></div>
+      </div>
+
+      <aside class="gift__side">
+        <div class="gift__card">
+          <div class="gift__art" id="giftArt">
+            <img src="assets/img/p-mini-rose-bag.jpg" alt="Gift suggestion" width="1000" height="1250">
+          </div>
+          <div class="gift__meta">
+            <div class="micro" id="giftStep">Sawaal 1 / 3</div>
+            <div class="gift__title" id="giftTitle">Mini Rose Bag</div>
+            <p class="gift__sub" id="giftSub">Jitna bataoge, pick utna sharp hoga.</p>
+          </div>
+        </div>
+        <div class="gift__chips" id="giftChips">
+          <span class="gift__chip">Kiske liye?</span>
+          <span class="gift__chip">Budget?</span>
+          <span class="gift__chip">Vibe?</span>
+        </div>
+        <div class="gift__note">Sab kuch ₹99 se shuru. Gift wrap free, note haath se likha hua.</div>
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="sec-tight" style="background:var(--paper-2)">
+    <div class="wrap">
+      <div class="shead">
+        <div class="shead__l">
+          <div class="shead__k"><i></i><span class="micro">Sabse popular</span></div>
+          <h2 class="d h2">Ye sabse zyada jaate hain.</h2>
+        </div>
+        <a class="link-u" href="shop.html">Full shelf →</a>
+      </div>
+      <div class="tags" id="giftPopular"></div>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/art.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/thread.js"></script>
+<script src="assets/js/interactions.js"></script>
+<script src="assets/js/craft3d.js"></script>
+</body>
+</html>
