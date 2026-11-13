@@ -1,0 +1,474 @@
+{
+  "_meta": {
+    "brand": "Crochet Craft Studio",
+    "founders": ["Vanshita Jain", "Manvi Jain"],
+    "instagram": "https://www.instagram.com/crochet.craftstudio",
+    "whatsappChannel": "https://whatsapp.com/channel/0029VbD5WbG8qIzlu287fA3r",
+    "whatsappNumber": "PENDING — client must provide a +91 business number; a channel link cannot be used for wa.me",
+    "note": "ALL PRICES ARE DEMO VALUES except where marked verified. Replace before launch. Never ship a guessed price.",
+    "verifiedPrices": ["mini-rose-bag: 129", "pouch: 170", "wallet: 200"],
+    "currency": "INR",
+    "lastUpdated": "2026-11-13"
+  },
+  "products": [
+    {
+      "id": "p01",
+      "slug": "mini-rose-bag",
+      "name": "Mini Rose Bag",
+      "nameHi": null,
+      "category": "bags",
+      "price": 129,
+      "priceVerified": true,
+      "compareAt": null,
+      "description": "Chhota sa bag, bada sa statement. Pearl chain included.",
+      "story": "Hamara sabse pyaara piece. Ek rose, haath se stitch kiya, pearl chain ke saath.",
+      "images": [
+        { "src": "/products/mini-rose-bag-1.webp", "width": 1200, "height": 1500, "alt": "Mini rose crochet bag in blush pink with pearl chain" },
+        { "src": "/products/mini-rose-bag-2.webp", "width": 1200, "height": 1500, "alt": "Mini rose bag held in hand, showing scale" }
+      ],
+      "colors": [
+        { "name": "Blush pink", "hex": "#F2CBD1" },
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Cream", "hex": "#F7F1E6" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 4,
+      "isDrop": true,
+      "occasions": ["birthday", "valentines", "just-because"],
+      "tags": ["bestseller", "under-200", "gift"],
+      "madeToOrder": false,
+      "weightGrams": 180
+    },
+    {
+      "id": "p02",
+      "slug": "bow-phone-case",
+      "name": "Bow Phone Case",
+      "nameHi": null,
+      "category": "phone-cases",
+      "price": 349,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Soft bow, hard case. Tumhare phone ka sabse cute outfit.",
+      "story": "Har case haath se banta hai — isliye model batana zaroori hai.",
+      "images": [
+        { "src": "/products/bow-case-1.webp", "width": 1200, "height": 1500, "alt": "Crochet bow phone case in cream, back view" },
+        { "src": "/products/bow-case-2.webp", "width": 1200, "height": 1500, "alt": "Bow phone case held in hand" }
+      ],
+      "colors": [
+        { "name": "Cream", "hex": "#F7F1E6" },
+        { "name": "Blush pink", "hex": "#F2CBD1" },
+        { "name": "Sage", "hex": "#4F6B4A" }
+      ],
+      "requiresPhoneModel": true,
+      "phoneModels": ["iPhone 11", "iPhone 12/13", "iPhone 14", "iPhone 15", "iPhone 16", "OnePlus Nord CE", "Samsung A54"],
+      "stock": null,
+      "isDrop": false,
+      "occasions": ["birthday", "valentines", "just-because"],
+      "tags": ["customisable", "bestseller"],
+      "madeToOrder": true,
+      "weightGrams": 90
+    },
+    {
+      "id": "p03",
+      "slug": "sunflower-phone-case",
+      "name": "Sunflower Phone Case",
+      "nameHi": null,
+      "category": "phone-cases",
+      "price": 349,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Ek sunflower, poora mood theek.",
+      "story": null,
+      "images": [
+        { "src": "/products/sunflower-case-1.webp", "width": 1200, "height": 1500, "alt": "Sunflower crochet phone case with yellow petals" }
+      ],
+      "colors": [
+        { "name": "Sunflower", "hex": "#E8A33D" },
+        { "name": "Cream", "hex": "#F7F1E6" }
+      ],
+      "requiresPhoneModel": true,
+      "phoneModels": ["iPhone 11", "iPhone 12/13", "iPhone 14", "iPhone 15", "iPhone 16", "OnePlus Nord CE", "Samsung A54"],
+      "stock": null,
+      "isDrop": false,
+      "occasions": ["birthday", "just-because"],
+      "tags": ["customisable"],
+      "madeToOrder": true,
+      "weightGrams": 90
+    },
+    {
+      "id": "p04",
+      "slug": "bag-charm",
+      "name": "Bag Charm",
+      "nameHi": null,
+      "category": "bags",
+      "price": 199,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Chhota charm, bada difference. Clip it anywhere.",
+      "story": null,
+      "images": [
+        { "src": "/products/bag-charm-1.webp", "width": 1200, "height": 1500, "alt": "Crochet bag charm in blush pink clipped to a tote" }
+      ],
+      "colors": [
+        { "name": "Blush pink", "hex": "#F2CBD1" },
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Sunflower", "hex": "#E8A33D" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 6,
+      "isDrop": false,
+      "occasions": ["birthday", "rakhi", "just-because"],
+      "tags": ["under-200", "gift", "bestseller"],
+      "madeToOrder": false,
+      "weightGrams": 40
+    },
+    {
+      "id": "p05",
+      "slug": "keychain",
+      "name": "Keychain",
+      "nameHi": null,
+      "category": "bags",
+      "price": 149,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Chabi ka saath nibhaane wala.",
+      "story": null,
+      "images": [
+        { "src": "/products/keychain-1.webp", "width": 1200, "height": 1500, "alt": "Assorted crochet keychains on a paper backdrop" }
+      ],
+      "colors": [
+        { "name": "Blush pink", "hex": "#F2CBD1" },
+        { "name": "Sage", "hex": "#4F6B4A" },
+        { "name": "Sunflower", "hex": "#E8A33D" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 9,
+      "isDrop": false,
+      "occasions": ["rakhi", "birthday", "just-because"],
+      "tags": ["under-200", "gift"],
+      "madeToOrder": false,
+      "weightGrams": 25
+    },
+    {
+      "id": "p06",
+      "slug": "pouch",
+      "name": "Pouch",
+      "nameHi": null,
+      "category": "small-goods",
+      "price": 170,
+      "priceVerified": true,
+      "compareAt": null,
+      "description": "Chhoti cheezein, ek jagah.",
+      "story": null,
+      "images": [
+        { "src": "/products/pouch-1.webp", "width": 1200, "height": 1500, "alt": "Crochet pouch in cream with a drawstring" }
+      ],
+      "colors": [
+        { "name": "Cream", "hex": "#F7F1E6" },
+        { "name": "Blush pink", "hex": "#F2CBD1" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 5,
+      "isDrop": false,
+      "occasions": ["birthday", "rakhi", "just-because"],
+      "tags": ["under-200"],
+      "madeToOrder": false,
+      "weightGrams": 70
+    },
+    {
+      "id": "p07",
+      "slug": "wallet",
+      "name": "Wallet",
+      "nameHi": null,
+      "category": "small-goods",
+      "price": 200,
+      "priceVerified": true,
+      "compareAt": null,
+      "description": "Paisa rakhne ki jagah, style bhi.",
+      "story": null,
+      "images": [
+        { "src": "/products/wallet-1.webp", "width": 1200, "height": 1500, "alt": "Crochet wallet in burgundy, open showing cards" }
+      ],
+      "colors": [
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Cream", "hex": "#F7F1E6" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 3,
+      "isDrop": true,
+      "occasions": ["birthday", "rakhi"],
+      "tags": ["under-200", "gift"],
+      "madeToOrder": false,
+      "weightGrams": 80
+    },
+    {
+      "id": "p08",
+      "slug": "scrunchie",
+      "name": "Scrunchie",
+      "nameHi": null,
+      "category": "hair",
+      "price": 99,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Baal bhi, mood bhi.",
+      "story": null,
+      "images": [
+        { "src": "/products/scrunchie-1.webp", "width": 1200, "height": 1500, "alt": "Crochet scrunchies in blush pink and cream" }
+      ],
+      "colors": [
+        { "name": "Blush pink", "hex": "#F2CBD1" },
+        { "name": "Cream", "hex": "#F7F1E6" },
+        { "name": "Sage", "hex": "#4F6B4A" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 12,
+      "isDrop": false,
+      "occasions": ["just-because", "birthday"],
+      "tags": ["under-200", "add-on"],
+      "madeToOrder": false,
+      "weightGrams": 20
+    },
+    {
+      "id": "p09",
+      "slug": "lotus-hair-clip",
+      "name": "Lotus Hair Clip",
+      "nameHi": null,
+      "category": "hair",
+      "price": 129,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Lotus, but make it wearable.",
+      "story": null,
+      "images": [
+        { "src": "/products/lotus-clip-1.webp", "width": 1200, "height": 1500, "alt": "Crochet lotus hair clip in blush pink" }
+      ],
+      "colors": [
+        { "name": "Blush pink", "hex": "#F2CBD1" },
+        { "name": "Burgundy", "hex": "#6E1F33" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 7,
+      "isDrop": false,
+      "occasions": ["navratri", "birthday", "just-because"],
+      "tags": ["under-200", "festive"],
+      "madeToOrder": false,
+      "weightGrams": 30
+    },
+    {
+      "id": "p10",
+      "slug": "rakhi",
+      "name": "Handmade Rakhi",
+      "nameHi": null,
+      "category": "festive",
+      "price": 149,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Bhai ke liye, haath se.",
+      "story": null,
+      "images": [
+        { "src": "/products/rakhi-1.webp", "width": 1200, "height": 1500, "alt": "Handmade crochet rakhi in burgundy and gold" }
+      ],
+      "colors": [
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Sunflower", "hex": "#E8A33D" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 15,
+      "isDrop": false,
+      "occasions": ["rakhi"],
+      "tags": ["festive", "under-200", "seasonal"],
+      "madeToOrder": false,
+      "weightGrams": 20
+    },
+    {
+      "id": "p11",
+      "slug": "rakhi-hamper",
+      "name": "Rakhi Hamper",
+      "nameHi": null,
+      "category": "festive",
+      "price": 599,
+      "priceVerified": false,
+      "compareAt": 749,
+      "description": "Rakhi + keychain + note. Ek dabbe mein poora Rakhi.",
+      "story": "Sabse zyada order hone wala hamper — kyunki ek se zyada cheez, ek hi shipping mein.",
+      "images": [
+        { "src": "/products/rakhi-hamper-1.webp", "width": 1200, "height": 1500, "alt": "Rakhi hamper with rakhi, keychain and handwritten note in a kraft box" }
+      ],
+      "colors": [
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Sunflower", "hex": "#E8A33D" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 8,
+      "isDrop": true,
+      "occasions": ["rakhi"],
+      "tags": ["festive", "bundle", "free-shipping", "gift"],
+      "madeToOrder": false,
+      "weightGrams": 350
+    },
+    {
+      "id": "p12",
+      "slug": "diya-stand",
+      "name": "Diya Stand",
+      "nameHi": null,
+      "category": "festive",
+      "price": 249,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Diya rakho, ghar sajao.",
+      "story": null,
+      "images": [
+        { "src": "/products/diya-stand-1.webp", "width": 1200, "height": 1500, "alt": "Crochet diya stand in cream with a lit diya" }
+      ],
+      "colors": [
+        { "name": "Cream", "hex": "#F7F1E6" },
+        { "name": "Burgundy", "hex": "#6E1F33" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": null,
+      "isDrop": false,
+      "occasions": ["diwali"],
+      "tags": ["festive", "home"],
+      "madeToOrder": true,
+      "weightGrams": 120
+    },
+    {
+      "id": "p13",
+      "slug": "shubh-labh-hanging",
+      "name": "Shubh-Labh Hanging",
+      "nameHi": "शुभ-लाभ",
+      "category": "festive",
+      "price": 299,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Ghar ke liye, shubh shuruaat ke liye.",
+      "story": null,
+      "images": [
+        { "src": "/products/shubh-labh-1.webp", "width": 1200, "height": 1500, "alt": "Crochet Shubh Labh hanging with Devanagari lettering" }
+      ],
+      "colors": [
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Sunflower", "hex": "#E8A33D" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": null,
+      "isDrop": false,
+      "occasions": ["diwali"],
+      "tags": ["festive", "home", "devanagari"],
+      "madeToOrder": true,
+      "weightGrams": 100
+    },
+    {
+      "id": "p14",
+      "slug": "butterfly-bag",
+      "name": "Butterfly Bag",
+      "nameHi": null,
+      "category": "bags",
+      "price": 399,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Titli jaisa halka, poora saaman andar.",
+      "story": null,
+      "images": [
+        { "src": "/products/butterfly-bag-1.webp", "width": 1200, "height": 1500, "alt": "Crochet butterfly bag in cream and blush pink" }
+      ],
+      "colors": [
+        { "name": "Cream", "hex": "#F7F1E6" },
+        { "name": "Blush pink", "hex": "#F2CBD1" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": 2,
+      "isDrop": true,
+      "occasions": ["birthday", "valentines"],
+      "tags": ["statement", "gift"],
+      "madeToOrder": false,
+      "weightGrams": 320
+    },
+    {
+      "id": "p15",
+      "slug": "crochet-top",
+      "name": "Crochet Top",
+      "nameHi": null,
+      "category": "wearables",
+      "price": 899,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Custom size. Custom colour. Tumhara fit.",
+      "story": "Made to order — size aur colour tum decide karo, hum hook chalate hain.",
+      "images": [
+        { "src": "/products/top-1.webp", "width": 1200, "height": 1500, "alt": "Crochet top in cream worn by a model" }
+      ],
+      "colors": [
+        { "name": "Cream", "hex": "#F7F1E6" },
+        { "name": "Burgundy", "hex": "#6E1F33" },
+        { "name": "Sage", "hex": "#4F6B4A" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": null,
+      "isDrop": false,
+      "occasions": ["birthday", "just-because"],
+      "tags": ["made-to-order", "customisable", "premium"],
+      "madeToOrder": true,
+      "weightGrams": 400
+    },
+    {
+      "id": "p16",
+      "slug": "krishna-amigurumi",
+      "name": "Krishna Amigurumi",
+      "nameHi": null,
+      "category": "amigurumi",
+      "price": 499,
+      "priceVerified": false,
+      "compareAt": null,
+      "description": "Chhota Kanha, bada pyaar.",
+      "story": "Hamara sabse viral piece. Har ek haath se, 8-10 din mein.",
+      "images": [
+        { "src": "/products/krishna-1.webp", "width": 1200, "height": 1500, "alt": "Handmade crochet Krishna amigurumi doll with flute" }
+      ],
+      "colors": [
+        { "name": "As shown", "hex": "#4F6B4A" }
+      ],
+      "requiresPhoneModel": false,
+      "phoneModels": [],
+      "stock": null,
+      "isDrop": true,
+      "occasions": ["diwali", "birthday", "just-because"],
+      "tags": ["bestseller", "gift", "made-to-order", "viral"],
+      "madeToOrder": true,
+      "weightGrams": 150
+    }
+  ],
+  "categories": [
+    { "id": "phone-cases", "label": "Phone cases", "emoji": null },
+    { "id": "bags", "label": "Bags & charms", "emoji": null },
+    { "id": "hair", "label": "Hair & accessories", "emoji": null },
+    { "id": "small-goods", "label": "Pouches & wallets", "emoji": null },
+    { "id": "festive", "label": "Festive & home", "emoji": null },
+    { "id": "amigurumi", "label": "Amigurumi", "emoji": null },
+    { "id": "wearables", "label": "Wearables", "emoji": null }
+  ],
+  "occasions": [
+    { "id": "rakhi", "label": "Rakhi", "month": 8, "dayStart": 1, "dayEnd": 31 },
+    { "id": "navratri", "label": "Navratri", "month": 10, "dayStart": 1, "dayEnd": 20 },
+    { "id": "diwali", "label": "Diwali", "month": 11, "dayStart": 1, "dayEnd": 15 },
+    { "id": "valentines", "label": "Valentine's", "month": 2, "dayStart": 1, "dayEnd": 20 },
+    { "id": "christmas", "label": "Christmas", "month": 12, "dayStart": 1, "dayEnd": 25 },
+    { "id": "birthday", "label": "Birthday", "month": null, "dayStart": null, "dayEnd": null },
+    { "id": "just-because", "label": "Just because", "month": null, "dayStart": null, "dayEnd": null }
+  ],
+  "reviews": [],
+  "_reviewsNote": "Intentionally empty. Populate only with real customer screenshots + written permission. Never invent testimonials."
+}

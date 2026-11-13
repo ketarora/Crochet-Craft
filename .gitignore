@@ -1,0 +1,16 @@
+# Test shots & captures
+shots/
+*.png
+*.jpg
+!site/assets/**
+
+# Planning & prompt specs
+0*-*.md
+site/PHOTOS.md
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
